@@ -1,0 +1,76 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    align-items: center; 
+    margin: 0;
+    background-image: url('https://img.freepik.com/free-vector/illustration-global-icon_53876-9267.jpg?t=st=1718076687~exp=1718080287~hmac=c610f4523c70ded48765bd262bc3cfa027da88851baa401756fbfe4f9afe7cb7&w=2000');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.header{
+display: flex;
+justify-content: center;
+}
+/* ============== */
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #ddd;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  thead {
+    background-color: #f2f2f2;
+  }
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  tbody tr:hover {
+    background-color: #ddd;
+  }
+  td {
+    padding: 8px;
+  }
+  td, th {
+    border-bottom: 1px solid #ddd;
+  }
+  td:first-child {
+    text-align: center;
+  }
+  
+
+/* ============== */
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  
+}
+.formInput{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    width: 400px;  
+}
+.submitBtn{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+.submitBtn:hover {
+    background-color: #45a049;
+  }
+  
